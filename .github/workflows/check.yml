@@ -1,0 +1,27 @@
+name: check
+
+on: ["pull_request"]
+
+jobs:
+  lint-coverage-build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x, 16.x]
+
+    name: Node ${{ matrix.node-version }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Installing dev dependencies
+        run: npm ci
+
+      - name: Checking rules
+        run: npm run check-rules
+
+      - name: Linting
+        run: npm run lint

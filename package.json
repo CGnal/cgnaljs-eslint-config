@@ -1,0 +1,56 @@
+{
+    "author": {
+        "name": "CGnal s.r.l.",
+        "mail": "info@cgnal.com",
+        "url": "https://cgnal.com/"
+    },
+    "bugs": "https://github.com/CGnal/cgnaljs-eslint-config/issues",
+    "contributors": [
+        {
+            "name": "Andrea Scartabelli",
+            "mail": "andrea.scartabelli@gmail.com"
+        }
+    ],
+    "description": "Linting rules for CGnal's JavaScript projects.",
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "files": [
+        "js",
+        "react"
+    ],
+    "homepage": "https://github.com/CGnal/cgnaljs-eslint-config",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "license": "MIT",
+    "name": "@cgnal/eslint-config",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CGnal/cgnaljs-eslint-config.git"
+    },
+    "scripts": {
+        "bump": "bump package.json package-lock.json",
+        "check": "npm run check-rules && npm run lint",
+        "check-js": "eslint-find-rules -d js/index.js",
+        "check-react": "eslint-find-rules -d react/index.js",
+        "check-rules": "npm run check-js && npm run check-react",
+        "lint": "eslint ."
+    },
+    "version": "0.1.0",
+    "devDependencies": {
+        "@jsdevtools/version-bump-prompt": "^6.1.0",
+        "eslint": "^8.2.0",
+        "eslint-find-rules": "^4.0.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-react": "^7.27.0"
+    },
+    "optionalDependencies": {
+        "eslint-plugin-import": ">=2.0.0",
+        "eslint-plugin-react": ">=7.0.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=7.0.0"
+    }
+}
