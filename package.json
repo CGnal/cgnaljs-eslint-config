@@ -26,6 +26,9 @@
     ],
     "license": "MIT",
     "name": "@cgnal/eslint-config",
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/CGnal/cgnaljs-eslint-config.git"
@@ -38,7 +41,7 @@
         "check-rules": "npm run check-js && npm run check-react",
         "lint": "eslint ."
     },
-    "version": "0.1.0",
+    "version": "0.1.1-beta.1",
     "devDependencies": {
         "@jsdevtools/version-bump-prompt": "^6.1.0",
         "eslint": "^8.2.0",

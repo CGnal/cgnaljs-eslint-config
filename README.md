@@ -1,6 +1,8 @@
 # CGnal ESLint rules
 
-Linting rules for CGnal's JavaScript projects.
+[![NPM version](https://img.shields.io/npm/v/@cgnal/eslint-config.svg)](https://www.npmjs.com/package/@cgnal/eslint-config) [![Build Status](https://github.com/CGnal/cgnaljs-eslint-config/actions/workflows/check.yml/badge.svg)](https://github.com/CGnal/cgnaljs-eslint-config/actions/workflows/check.yml)
+
+Linting rules for [CGnal](https://cgnal.com)'s JavaScript projects.
 
 # Installation
 
@@ -9,9 +11,9 @@ npm install @cgnal/eslint-config --save-dev
 ```
 
 The package requires the following peer dependencies:
-- [`eslint`](https://github.com/eslint/eslint)` >= 7`
-- [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import)` >= 2` if you're using JS rules
-- [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react)` >= 7` if you're using React rules
+- [`eslint`](https://github.com/eslint/eslint) `>=7`
+- [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import) `>=2` if you're using JS rules
+- [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react) `>=7` if you're using React rules
 
 # Usage
 
