@@ -41,11 +41,11 @@
         "check-rules": "npm run check-js && npm run check-react",
         "lint": "eslint ."
     },
-    "version": "0.1.1",
+    "version": "0.2.0",
     "devDependencies": {
         "@jsdevtools/version-bump-prompt": "^6.1.0",
-        "eslint": "^8.2.0",
-        "eslint-find-rules": "^4.0.0",
+        "eslint": "^8.14.0",
+        "eslint-find-rules": "^4.1.0",
         "eslint-plugin-import": "^2.25.3",
         "eslint-plugin-react": "^7.27.0"
     },

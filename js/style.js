@@ -8,7 +8,7 @@ module.exports = {
         "comma-style": ["error", "last"],
         "computed-property-spacing": ["error", "never"],
         "eol-last": "error",
-        "function-paren-newline": ["error", "multiline"],
+        "function-paren-newline": ["error", "multiline-arguments"],
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "key-spacing": [
             "error", {
